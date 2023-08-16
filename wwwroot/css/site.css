@@ -1,0 +1,41 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+textarea{
+    resize: none;
+}
+.field-validation-error{
+    font-size:15px;
+}
+
+.poster{
+    min-height: 200px;
+    background-position: center;
+    background-size: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.poster:hover {
+    background-size: 125%;
+    transition: all 0.3s ease-in-out;
+}
+
+.mt-60-px{
+    margin-top: 60px;
+}
